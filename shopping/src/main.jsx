@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Home from './page_routes/home.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,7 +9,7 @@ import {
 const router =createBrowserRouter([
   {
     path:"/",
-    element:<div>diffault page</div>
+    element:<Home/>
   },
 ]
 )
