@@ -1,0 +1,24 @@
+.navigation_container{
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    font-weight: 900;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_iteam{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;color: #fff;
+   
+}
+.Link{
+font-family: monospace;
+color: #fff;
+font-size: 22px;
+text-decoration: none;
+}
